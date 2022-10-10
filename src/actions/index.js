@@ -15,6 +15,6 @@ export const incNumber = (num) => {
 export const decNumber = (num) => {
   return {
     type: "DECREMENT",
-    payload: -num,
+    payload: num,
   };
 };
